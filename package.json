@@ -1,0 +1,18 @@
+{
+  "name": "agents-vs-gnats",
+  "version": "1.0.0",
+  "description": "AI of Agents that should kill gnats.",
+  "main": "./src/index.html",
+  "repository": "https://github.com/leoncarey/agents-vs-gnats.git",
+  "author": "Leonardo Carey",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "dev": "npx parcel ./src/index.html"
+  },
+  "devDependencies": {
+    "sass": "^1.26.1"
+  }
+}

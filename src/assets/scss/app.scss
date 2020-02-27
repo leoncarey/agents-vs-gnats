@@ -1,0 +1,72 @@
+/*
+ * General
+ */
+html,
+body {
+  font-family: "Spartan", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+main {
+  width: 80%;
+  margin: 60px auto;
+  display: block;
+}
+
+/*
+* Form selection
+*/
+form {
+  width: 100%;
+  margin-top: 30px;
+}
+
+input[type="text"] {
+  padding: 10px 12px;
+  border: 0;
+  background: #f1f1f1;
+  color: #666;
+  border-radius: 8px;
+  outline: none;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+
+  &:focus {
+    border-color: #ccc;
+  }
+}
+
+.btn {
+  padding: 10px 12px;
+  background: #2ea3de;
+  color: #fff;
+  border-radius: 8px;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 10px;
+  width: 200px;
+}
+
+/*
+ * Battle field
+ */
+.map {
+  margin-top: 20px;
+
+  table {
+    width: 100%;
+  }
+
+  td {
+    width: 40px;
+    height: 40px;
+    background: #8dce8d;
+  }
+}

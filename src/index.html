@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Spartan:300,400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/scss/app.scss" />
+    <title>Agents VS Gnats</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Agents VS Gnats</h1>
+        <p>
+            Select the rows and columns numbers to battle field.<br>
+            Select agents and gnats number as well. 
+        </p>
+
+        <form onsubmit="">
+          <input type="text" name="rows" placeholder="Rows" />
+          <input type="text" name="columns" placeholder="Columns" />
+          <input type="text" name="agents" placeholder="Agents" />
+          <input type="text" name="gnats" placeholder="Gnats" />
+          <input type="submit" class="btn" value="Generate battle field" />
+        </form>
+      </section>
+
+      <section class="map">
+        <table></table>
+      </section>
+    </main>
+  </body>
+</html>
